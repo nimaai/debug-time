@@ -7,11 +7,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>debug time</title>
+    <script type="text/javascript" src="node_modules/moment/moment.js"></script>
   </head>
   <body>
-    <script>
+    <script type="text/javascript">
       d = new Date();
       document.write(d);
+    </script>
+    <hr>
+    <script type="text/javascript">
+      m = moment().format();
+      document.write(m);
     </script>
   </body>
 </html>
